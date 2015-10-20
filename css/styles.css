@@ -31,19 +31,19 @@ nav li {
 	display: inline-block;
 }
 
-#leftNav {
+.leftNav {
 	float: left;
 }
 
-#leftNav li {
+.leftNav li {
 	margin: 20px 40px;
 }
 
-#rightNav {
+.rightNav {
 	float: right;
 }
 
-#rightNav li {
+.rightNav li {
 	margin: 20px 40px;
 }
 
