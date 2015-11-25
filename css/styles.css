@@ -1,87 +1,227 @@
 
-#headerBG {
-	position: absolute;
+body {
+	position: relative;
+	font-family: 'Dosis', sans-serif;
+	font-weight: 200;
+	font-size: 18px;
+}
+
+#navContent, #aboutContent {
+	max-width: 1024px;
+	margin: 0 auto;
+	position: relative;
+}
+
+/* --------------- Header Styles ---------------- */
+
+nav {
+	background: #232323;
+	opacity: .95;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+}
+
+#navContent div {
+	display: inline-block;
+	width: 15%;
+	min-width: 100px;
+}
+
+#navContent ul {
+	float: right;
+	margin-top: 40px;
+}
+
+@media (max-width: 1100px) {
+	#navContent ul {
+		margin-right: 30px;
+	}
+}
+
+#navContent ul li {
+	display: inline-block;
+	transition: all .1s ease-in-out;
+	-moz-transition: all .1s ease-in-out;
+	-webkit-transition: all .1s ease-in-out;
+	-o-transition: all .1s ease-in-out;
+}
+
+#navContent a {
+	font-weight: 300;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+	margin-left: 4vw;	
+}
+
+@media (max-width: 850px) {
+	#navContent ul {
+		margin-top: 25px;
+	}
+
+	#navContent a {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 600px) {
+	#navContent ul {
+		margin-top: 20px;
+	}
+
+	#navContent a {
+		font-size: 12px;
+	}
+}
+
+#navContent a.active {
+	color: #DDD031;
+}
+
+#navContent li:hover {
+	transform: scale(1.1);
+}
+
+/* ----------------- Hero Styles ------------------ */
+
+#filler {
+	height: 60px;
+	background: #000;
+}
+
+#gif img{
 	width: 100%;
 }
 
-#headerBG img {
+#arrow {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -250%);
+}
+
+#arrow img {
+	width: 3vw;
+	display: block;
+	margin:0 auto;
+	opacity: 0;
+}
+
+/* ---------------- About Me Styles ---------------- */
+
+#about {
 	width: 100%;
+	color: #fff;
+}
+
+#aboutBG {
+	background: #292929;
+	padding-top: 110px;
+	margin-top: -2px;
+	padding-bottom: 110px;
+}
+
+#about h2 {
+	text-align: center;
+	font-weight: 400;
+	font-size: 38px;
+	margin-bottom: 70px;
+}
+
+@media (max-width: 850px) {
+	#aboutBG {
+		padding-top: 50px;
+		padding-bottom: 40px;
+	}
+
+	#about h2 {
+		font-size: 24px;
+		margin-bottom: 30px;
+	}
+}
+
+#icons {
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom: 90px;
+}
+
+.hoverIcon {
+	width: 33%;
+	display: inline-block;
+	position: relative;
+}
+
+@media (max-width: 850px) {
+	#icons {
+		margin-bottom: 50px;
+	}
+
+	.hoverIcon {
+		width: 30%;
+	}
+}
+
+.hoverIcon img {
+	display: block;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.hoverIcon img:first-child {
+	position: absolute;
+	transform: translate(21.5%, 0);
+	opacity: 1;
+	transition: opacity .3s ease-out;
+	-moz-transition: opacity .3s ease-out;
+	-webkit-transition: opacity .3s ease-out;
+	-o-transition: opacity .3s ease-out;
+}
+
+.hoverIcon:hover img:first-child {
+	opacity: 0;
+}
+
+.hoverIcon figcaption {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	color: #DDD031;
+	margin-top: 25px;
+}
+
+#about p {
+	width: 75%;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 25px;
+}
+
+@media (max-width: 850px) {
+	.hoverIcon figcaption {
+		font-size: 10px;
+	}
+
+	#about p {
+		font-size: 13px;
+	}
+}
+
+.parallax {
+	position: relative;
+}
+
+#headshot {
+	position: absolute;
 	z-index: -1;
 }
 
-nav {
-	position: fixed;
+#headshot img {
 	width: 100%;
-	z-index: 1;
-	background: rgba(255,255,235,.60);
-	color: #5C5959;
-	font-weight: bold;
-	text-transform: uppercase;
 }
 
-nav, h1, h2 {
-	font-family: 'Varela', sans-serif;
+#mask img {
+	width: 100%;
 }
 
-nav ul {
-	display: inline-block;
-}
 
-nav li {
-	display: inline-block;
-}
-
-.leftNav {
-	float: left;
-}
-
-.leftNav li {
-	margin: 20px 40px;
-}
-
-.rightNav {
-	float: right;
-}
-
-.rightNav li {
-	margin: 20px 40px;
-}
-
-nav a {
-	color: #5C5959;
-}
-	
-#logo {
-	position: relative;
-	width: 40%;
-	margin: 0 auto;
-	margin-bottom: 30px;
-}
-
-#logo img {
-	margin-top: 180px;
-}
-
-h1 {
-	position: relative;
-	text-align: center;
-	color: white;
-	font-size: 3.0vw;
-	margin-bottom: 15.0vw;
-}
-
-main {
-	position: relative;
-	background: white;
-}
-
-#about {
-	text-align: center;
-}
-
-h2 {
-	display: inline-block;
-	font-size: 2.5vw;
-	margin: 50px;
-}
-	

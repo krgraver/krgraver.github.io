@@ -5,32 +5,83 @@
 <title>Sweet As Design</title>
 <link href="css/reset.css" rel="stylesheet">
 <link href="css/styles.css" rel="stylesheet">
-<link href='https://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Dosis:400,200,300' rel='stylesheet' type='text/css'>
 <script src="js/jquery.min.js"></script>
 </head>
 <body>
-	<header id="home">
-    	<div id="headerBG">
-        	<img src="images/desk.jpg" alt="">
+	<header>
+        <div>
+            <nav>
+                <div id="navContent">
+                    <div> 
+                        <img src="images/SweetAsLogo.svg" alt="Sweet As Logo">
+                    </div>
+                	<ul>
+                		<li><a class="active" href="#home">Home</a></li>
+                		<li><a href="#about">About</li></a>
+                        <li><a href="#portfolio">Portfolio</li></a>
+                        <li><a href="#contact">Contact</li></a>
+                	</ul>
+                </div>
+            </nav>
         </div>
-        <nav>
-        	<ul class="leftNav">
-        		<a href="#home"><li>Home</li></a>
-        		<a href="#about"><li>About</li></a>
-        	</ul>
-            <ul class="rightNav">
-            	<a href="#"><li>Portfolio</li></a>
-        		<a href="#"><li>Contact</li></a>
-            </ul>
-        </nav>
-    	<div id="logo"> 
-    		<img src="images/SweetAsLogo.svg" alt="">
-        </div>
-        <h1>Kelly Robert Graver</h1>
     </header>
 	<main>
-    	<section id="about">
-            <h2>Site In Progress</h2>
+        <div id="home">
+            <div id="filler">
+            </div>
+            <div id="gif">
+                <img src="images/intro.gif" alt="intro gif">
+            </div>
+            <div id="arrow">
+                <img src="images/downarrow.png" alt="Down Arrow">
+            </div>
+        </div>
+        <section id="about">
+            <div id="aboutBG">
+                <div id="aboutContent">
+                    <h2>About Me</h2>
+                    <div id="icons">
+                        <div class="hoverIcon">
+                            <figure>
+                                <img src="images/ux.png" alt="UX Icon">
+                                <img src="images/ux_text.png" alt="UX Icon">
+                            </figure>
+                            <figcaption>
+                                User Centered Design
+                            </figcaption>
+                        </div>
+                        <div class="hoverIcon">
+                            <figure>
+                                <img src="images/ui.png" alt="UX Icon">
+                                <img src="images/ui_text.png" alt="UX Icon">
+                            </figure>
+                            <figcaption>
+                                Visual Design
+                            </figcaption>
+                        </div>
+                        <div class="hoverIcon">
+                            <figure>
+                                <img src="images/dev.png" alt="UX Icon">
+                                <img src="images/dev_text.png" alt="UX Icon">
+                            </figure>
+                            <figcaption>
+                                Development
+                            </figcaption>
+                        </div>
+                    </div>
+                    <p>I'm a UI/UX Designer living in Chicago. A marketing degree from Notre Dame got me started on the path of relating to users, but training at DESIGNATION gave me the tools to do so in my own unique way. I love anything that combines form with functionality and versatility; cars, phones, shoes, and especially interfaces. I try to mold myself in the same way, learning visual design, user experience, and front-end development. I believe creativity makes life worth living, so I created everything you see on this site for you to enjoy.
+                    </p>
+                </div>
+            </div>
+            <div class="parallax">
+                <div id="headshot">
+                    <img src="images/placeholder.jpg" alt="">
+                </div>
+                <div id="mask">
+                    <img src="images/mask.png" alt="parallax mask">
+                </div>
+            </div>
         </section>
     </main>
 <script src="js/script.js"></script>
