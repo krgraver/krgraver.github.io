@@ -1,20 +1,5 @@
 // JavaScript Document
 
-$(document).ready(function(){
-	$('a[href^="#"]').on('click',function (e) {
-	    e.preventDefault();
-
-	    var target = this.hash;
-	    var $target = $(target);
-
-	    $('html, body').stop().animate({
-	        'scrollTop': $target.offset().top
-	    }, 900, 'swing', function () {
-	        window.location.hash = target;
-	    });
-	});
-});
-
 $(document).ready(function () {
 	$(document).on("scroll", onScroll);
 
@@ -62,15 +47,10 @@ $(function() {
 
 $("#arrow img")
 	.delay(8000)
-	.animate({opacity: ".6"}, {duration: 1000, queue: true});
+	.animate({opacity: .6}, {duration: 1000, queue: true});
 
-$(window).bind('scroll',function(e){
-    parallaxScroll();
-});
 
-function parallaxScroll(){
-    var scrolled = $(window).scrollTop();
-    $('#headshot').css('top',(0-(scrolled*.3))+'px');
-}
+
+
 
 

@@ -1,23 +1,29 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Sweet As Design</title>
-<link href="css/reset.css" rel="stylesheet">
-<link href="css/styles.css" rel="stylesheet">
-<link href='https://fonts.googleapis.com/css?family=Dosis:400,200,300' rel='stylesheet' type='text/css'>
-<script src="js/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Kelly Graver Design</title>
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Dosis:400,200,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 <body>
 	<header>
         <div>
+            <div id="headshot">
+                <img src="images/placeholder.jpg" alt="">
+            </div>
             <nav>
                 <div id="navContent">
-                    <div> 
+                    <div class="logo"> 
                         <img src="images/SweetAsLogo.svg" alt="Sweet As Logo">
                     </div>
                 	<ul>
-                		<li><a class="active" href="#home">Home</a></li>
                 		<li><a href="#about">About</li></a>
                         <li><a href="#portfolio">Portfolio</li></a>
                         <li><a href="#contact">Contact</li></a>
@@ -25,9 +31,7 @@
                 </div>
             </nav>
         </div>
-    </header>
-	<main>
-        <div id="home">
+        <div>
             <div id="filler">
             </div>
             <div id="gif">
@@ -37,10 +41,15 @@
                 <img src="images/downarrow.png" alt="Down Arrow">
             </div>
         </div>
+    </header>
+	<main>
         <section id="about">
             <div id="aboutBG">
                 <div id="aboutContent">
-                    <h2>About Me</h2>
+                    <h2>My story</h2>
+                    <p>I'm a UI/UX Designer living in Chicago. A marketing degree from Notre Dame got me started on the path of relating to users, but training at DESIGNATION gave me the tools to do so in my own unique way. I love anything that combines form with functionality and versatility; cars, phones, shoes, and especially interfaces. I try to mold myself in the same way, learning visual design, user experience, and front-end development. I believe creativity makes life worth living, so I designed and coded everything you see on this site for you to enjoy.
+                    </p>
+                    <h2>Skills</h2>
                     <div id="icons">
                         <div class="hoverIcon">
                             <figure>
@@ -70,20 +79,90 @@
                             </figcaption>
                         </div>
                     </div>
-                    <p>I'm a UI/UX Designer living in Chicago. A marketing degree from Notre Dame got me started on the path of relating to users, but training at DESIGNATION gave me the tools to do so in my own unique way. I love anything that combines form with functionality and versatility; cars, phones, shoes, and especially interfaces. I try to mold myself in the same way, learning visual design, user experience, and front-end development. I believe creativity makes life worth living, so I created everything you see on this site for you to enjoy.
-                    </p>
                 </div>
             </div>
-            <div class="parallax">
-                <div id="headshot">
-                    <img src="images/placeholder.jpg" alt="">
-                </div>
+            <div>
                 <div id="mask">
                     <img src="images/mask.png" alt="parallax mask">
                 </div>
             </div>
         </section>
+        <section id="portfolio" class="clearfix">
+            <div id="portfolioContent">
+                <h2>Portfolio</h2>
+                <ul id="portfolioGrid">
+                    <li>
+                        <a href="#">
+                            <img class="wow fadeIn" src="images/Yoghurt_Shoppe_Mockup.jpg" alt="Yoghurt Shoppe Image">
+                        </a>
+                        <div class="projectInfo">
+                            <h3>The Yoghurt Shoppe</h3>
+                            <h4>UI / Branding</h4>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img class="wow fadeIn" src="images/LocalGuide_Mockup.jpg" alt="LocalGuide Image">
+                        </a>
+                        <div class="projectInfo">
+                            <h3>LocalGuide</h3>
+                            <h4>UI / Branding</h4>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img class="wow fadeIn" src="images/Flint_Mockup.jpg" alt="Flint Image">
+                        </a>
+                        <div class="projectInfo">
+                            <h3>Flint</h3>
+                            <h4>UX / UI / Branding</h4>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img class="wow fadeIn" src="images/Sprightly_Mockup.jpg" alt="Sprightly Image">
+                        </a>
+                        <div class="projectInfo">
+                            <h3>Sprightly</h3>
+                            <h4>UX / UI / Branding</h4>
+                        </div>
+                    </li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </section>
+        <section id="contact">
+            <div id="contactContent">
+                <h2>Get in touch</h2>
+                <h5>I'm always open to new projects and meeting awesome people. Let's work together on something great.</h5>
+                <h3>Resume</h3>
+                <p>Kelly Robert Graver</p>
+                <h3>Email</h3>
+                <p>krgraver@gmail.com</p>
+                <h3>Social Media</h3>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/kelly-robert-graver-80b72352" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
+                    <li><a href="https://www.facebook.com/krgraver" target="_blank"><i class="fa fa-facebook-official"></i></a></li>
+                    <li><a href="https://twitter.com/krgraver" target="_blank"><i class="fa fa-twitter-square"></i></a></li>
+                    <li><a href="https://500px.com/krgraver" target="_blank"><i class="fa fa-500px"></i></a></li>
+                </ul>
+            </div>
+        </section>
+        <footer>
+            <div>
+                <img src="images/footer_stock.jpg" alt="footer image">
+            </div>
+            <div class="logo"> 
+                <img src="images/SweetAsLogo.svg" alt="Sweet As Logo">
+            </div>
+        </footer>
     </main>
+<script src="js/jquery.min.js"></script>
+<script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
 <script src="js/script.js"></script>
 </body>
 </html>

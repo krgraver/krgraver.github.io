@@ -1,4 +1,8 @@
 
+html {
+	background: #333;
+}
+
 body {
 	position: relative;
 	font-family: 'Dosis', sans-serif;
@@ -6,7 +10,7 @@ body {
 	font-size: 18px;
 }
 
-#navContent, #aboutContent {
+#navContent, #aboutContent, #contactContent {
 	max-width: 1024px;
 	margin: 0 auto;
 	position: relative;
@@ -22,7 +26,7 @@ nav {
 	z-index: 10;
 }
 
-#navContent div {
+#navContent .logo {
 	display: inline-block;
 	width: 15%;
 	min-width: 100px;
@@ -55,7 +59,7 @@ nav {
 	margin-left: 4vw;	
 }
 
-@media (max-width: 850px) {
+@media (max-width: 870px) {
 	#navContent ul {
 		margin-top: 25px;
 	}
@@ -111,24 +115,32 @@ nav {
 
 #about {
 	width: 100%;
+	margin-top: -2px;
 	color: #fff;
 }
 
 #aboutBG {
 	background: #292929;
 	padding-top: 110px;
-	margin-top: -2px;
 	padding-bottom: 110px;
 }
 
 #about h2 {
 	text-align: center;
 	font-weight: 400;
-	font-size: 38px;
-	margin-bottom: 70px;
+	font-size: 46px;
+	margin-bottom: 50px;
 }
 
-@media (max-width: 850px) {
+#about p {
+	width: 75%;
+	margin: 0 auto;
+	margin-bottom: 80px;
+	text-align: center;
+	line-height: 25px;
+}
+
+@media (max-width: 870px) {
 	#aboutBG {
 		padding-top: 50px;
 		padding-bottom: 40px;
@@ -138,12 +150,17 @@ nav {
 		font-size: 24px;
 		margin-bottom: 30px;
 	}
+
+	#about p {
+		font-size: 13px;
+		margin-bottom: 50px;
+		line-height: 20px;
+	}
 }
 
 #icons {
 	width: 90%;
 	margin: 0 auto;
-	margin-bottom: 90px;
 }
 
 .hoverIcon {
@@ -152,10 +169,7 @@ nav {
 	position: relative;
 }
 
-@media (max-width: 850px) {
-	#icons {
-		margin-bottom: 50px;
-	}
+@media (max-width: 870px) {
 
 	.hoverIcon {
 		width: 30%;
@@ -170,7 +184,7 @@ nav {
 
 .hoverIcon img:first-child {
 	position: absolute;
-	transform: translate(21.5%, 0);
+	transform: translate(21.4%, 0);
 	opacity: 1;
 	transition: opacity .3s ease-out;
 	-moz-transition: opacity .3s ease-out;
@@ -190,29 +204,15 @@ nav {
 	margin-top: 25px;
 }
 
-#about p {
-	width: 75%;
-	margin: 0 auto;
-	text-align: center;
-	line-height: 25px;
-}
-
-@media (max-width: 850px) {
+@media (max-width: 870px) {
 	.hoverIcon figcaption {
 		font-size: 10px;
 	}
-
-	#about p {
-		font-size: 13px;
-	}
-}
-
-.parallax {
-	position: relative;
 }
 
 #headshot {
-	position: absolute;
+	position: fixed;
+	bottom: 2px;
 	z-index: -1;
 }
 
@@ -223,5 +223,199 @@ nav {
 #mask img {
 	width: 100%;
 }
+
+/*----------------Portfolio Styles-----------------*/
+
+#portfolio {
+	background: #222;
+	margin-top: -2px;
+	padding-top: 110px;
+	color: #fff;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+} 
+.clearfix:after {
+    clear: both;
+}
+
+#portfolio h2 {
+	text-align: center;
+	font-weight: 400;
+	font-size: 46px;
+	margin-bottom: 70px;
+}
+
+@media (max-width: 870px) {
+	#portfolio {
+		padding-top: 50px;
+	}
+
+	#portfolio h2 {
+		font-size: 24px;
+		margin-bottom: 30px;
+	}
+}
+
+#portfolioGrid li {
+	width: 33.33%;
+	float: left;
+}
+
+#portfolioGrid a {
+	display: inline-block;
+	position: relative;
+}
+
+#portfolioGrid img {
+	width: 100%;
+}
+
+.projectInfo {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+
+.projectInfo h3 {
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	color: #DDD031;
+	margin-bottom: 10px;
+}
+
+.projectInfo h4 {
+	color: #fff;
+}
+
+@media (max-width: 870px) {
+	#portfolioGrid li {
+		width: 50%;
+	}
+
+	.projectInfo h3 {
+		font-size: 16px;
+	}
+
+	.projectInfo h4 {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 450px) {
+	#portfolioGrid li {
+		width: 100%;
+	}
+}
+
+/*--------------Contact Styles--------------------*/
+
+#contact {
+	background: #333;
+	padding-top: 110px;
+	padding-bottom: 70px;
+	color: #fff;
+}
+
+#contactContent {
+	text-align: center;
+}
+
+#contactContent h2 {
+	font-weight: 400;
+	font-size: 46px;
+	margin-bottom: 40px;
+}
+
+@media (max-width: 870px) {
+	#contact {
+		padding-top: 50px;
+		padding-bottom: 40px;
+	}
+
+	#contact h2 {
+		font-size: 24px;
+		margin-bottom: 30px;
+	}
+}
+
+#contactContent h5 {
+	font-size: 20px;
+	line-height: 25px;
+	width: 45%;
+	display: inline-block;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+#contactContent h3 {
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: #DDD031;
+	margin-bottom: 15px;
+}
+
+#contactContent p {
+	margin-bottom: 30px;
+}
+
+#contactContent li {
+	display: inline-block;
+	margin: 10px 30px;
+}
+
+#contactContent i {
+	font-size: 40px;
+	color: #fff;
+}
+
+
+@media (max-width: 870px) {
+	#contactContent h3 {
+		font-size: 14px;
+	}
+
+	#contactContent h5 {
+		font-size: 13px;
+		line-height: 20px;
+	}
+
+	#contactContent p {
+		font-size: 13px;
+	}
+
+	#contactContent li {
+		margin: 10px 20px;
+	}
+
+	#contactContent i {
+		font-size: 20px;
+	}
+}
+
+/*-------------------- Footer Styles -------------------*/
+
+footer {
+	position: relative;
+	bottom: 0;
+}
+
+footer img {
+	width: 100%;
+}
+
+footer .logo {
+	position: absolute;
+	width: 20%;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+
 
 
