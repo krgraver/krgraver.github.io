@@ -38,6 +38,16 @@ function onScroll(event){
 	});
 }
 
+$(window).scroll(function() {
+	if ($('body').scrollTop() > 10 && $(window).width() > 870) {
+		$('#navContent .logo').addClass('scroll');
+		$('#navContent ul').addClass('scroll');
+	} else {
+		$('#navContent .logo').removeClass('scroll');
+		$('#navContent ul').removeClass('scroll');
+	}
+});
+
 $(function() {
 	$("#navContent a").click(function(){
 		$("#navContent a").removeClass("active");
