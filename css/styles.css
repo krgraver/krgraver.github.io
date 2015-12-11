@@ -28,8 +28,9 @@ nav {
 
 #navContent .logo {
 	display: inline-block;
-	width: 15%;
-	min-width: 100px;
+	margin: 20px 30px;
+	width: 5%;
+	min-width: 20px;
 }
 
 #navContent ul {
@@ -411,7 +412,7 @@ footer img {
 
 footer .logo {
 	position: absolute;
-	width: 20%;
+	width: 10%;
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%,-50%);
