@@ -150,11 +150,20 @@ nav {
 }
 
 #about p {
-	width: 75%;
+	width: 70%;
 	margin: 0 auto;
 	margin-bottom: 80px;
 	text-align: center;
 	line-height: 25px;
+}
+
+#aboutContent p:nth-child(2) {
+	margin-bottom: 40px;
+}
+
+#about p a {
+	text-decoration: none;
+	color: #DDD031;
 }
 
 @media (max-width: 870px) {
