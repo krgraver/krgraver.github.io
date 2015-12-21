@@ -16,14 +16,24 @@ body {
 	position: relative;
 }
 
+.articleContent {
+	max-width: 800px;
+	margin: 0 auto;
+	position: relative;
+}
+
 /* --------------- Header Styles ---------------- */
 
 nav {
-	background: #232323;
-	opacity: .95;
+	background: rgba(35,35,35,.95);
 	position: fixed;
 	width: 100%;
 	z-index: 10;
+	transition: background .3s;
+}
+
+nav.scroll {
+	background: rgba(35,35,35,.5);
 }
 
 #navContent .logo {
@@ -31,6 +41,7 @@ nav {
 	margin: 20px 30px;
 	width: 5%;
 	min-width: 20px;
+	transition: width .3s;
 }
 
 #navContent .logo.scroll {
@@ -40,6 +51,7 @@ nav {
 #navContent ul {
 	float: right;
 	margin-top: 40px;
+	transition: margin-top .3s;
 }
 
 #navContent ul.scroll {
@@ -60,7 +72,7 @@ nav {
 	-o-transition: all .1s ease-in-out;
 }
 
-#navContent a {
+#navContent ul a {
 	font-weight: 300;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -77,7 +89,7 @@ nav {
 		margin-top: 20px;
 	}
 
-	#navContent a {
+	#navContent ul a {
 		font-size: 14px;
 	}
 }
@@ -91,12 +103,12 @@ nav {
 		margin-top: 5px;
 	}
 
-	#navContent a {
+	#navContent ul a {
 		font-size: 12px;
 	}
 }
 
-#navContent a.active {
+#navList a.active {
 	color: #DDD031;
 }
 
@@ -121,11 +133,16 @@ nav {
 	transform: translate(-50%, -250%);
 }
 
+#arrow:hover img {
+	transform: scale(1.2);
+}
+
 #arrow img {
 	width: 3vw;
 	display: block;
 	margin:0 auto;
 	opacity: 0;
+	transition: transform .5s;
 }
 
 /* ---------------- About Me Styles ---------------- */
@@ -441,6 +458,175 @@ footer .logo {
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%,-50%);
+}
+
+/*--------------------- Case Study Styles ----------------*/
+
+.headerImg {
+	position: fixed;
+	z-index: -1;
+}
+
+.headerImg img{
+	width: 100%;
+}
+
+article {
+	position: relative;
+	width: 100%;
+	background: #FFF;
+	top: 780px;
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+
+article h1 {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-size: 48px;
+	margin-bottom: 40px;
+}
+
+article h2 {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-size: 24px;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+article h3 {
+	font-size: 24px;
+	color: #AAA;
+	display: inline-block;
+	margin-right: 50px;
+	margin-bottom: 60px;
+}
+
+article p {
+	line-height: 30px;
+	margin-bottom: 30px;
+}
+
+figcaption {
+	line-height: 30px;
+	margin-bottom: 40px;
+}
+
+/*--------------------- Yoghurt Shoppe Styles ---------------*/
+
+#yoghurtShoppe h1 {
+	color: #82a19f;
+}
+
+#yoghurtShoppe h2 {
+	color: #82a19f;
+}
+
+#ysLogo {
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+#ysLogo img {
+	width: 100%;
+}
+
+.ysScreens {
+	width: 100%;
+}
+
+.ysScreens img {
+	width: 100%;
+	box-shadow: 1px 1px 20px #666;
+	margin-bottom: 150px;
+}
+
+/*--------------------- LocalGuide Styles --------------------*/
+
+#localGuide h1 {
+	color: #5698d2;
+}
+
+#localGuide h2 {
+	color: #5698d2;
+}
+
+#persona {
+	position: relative;
+}
+
+#persona h5 {
+	font-size: 24px;
+	font-weight: 400;
+	color: #5698d2;
+	margin-bottom: 20px;
+}
+
+#arianaPic {
+	display: inline-block;
+	width: 40%;
+}
+
+#arianaPic img {
+	width: 100%;
+}
+
+#arianaText {
+	float: right;
+	margin-top: 10px;
+	width: 55%;
+}
+
+#arianaText ul {
+	list-style-type: disc;
+}
+
+#arianaText li {
+	margin-bottom: 15px;
+	line-height: 24px;
+}
+
+#localGuideWireframes img {
+	width: 100%;
+}
+
+#lgLogo img {
+	width: 100%;
+}
+
+#lgFinal img {
+	width: 100%;
+}
+
+/*---------------------- Portfolio Nav Styles -----------------*/
+
+#portfolioNav {
+	position: relative;
+	top: 780px;
+	background: #444;
+	padding: 40px;
+}
+
+#portfolioNav li {
+	position: relative;
+	display: inline-block;
+	width: 16.6%;
+}
+
+#portfolioNav li img {
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+#portfolioNav h4 {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #FFF;
 }
 
 
