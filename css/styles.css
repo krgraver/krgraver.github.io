@@ -515,11 +515,7 @@ figcaption {
 
 /*--------------------- Yoghurt Shoppe Styles ---------------*/
 
-#yoghurtShoppe h1 {
-	color: #82a19f;
-}
-
-#yoghurtShoppe h2 {
+#yoghurtShoppe h1, #yoghurtShoppe h2 {
 	color: #82a19f;
 }
 
@@ -544,11 +540,7 @@ figcaption {
 
 /*--------------------- LocalGuide Styles --------------------*/
 
-#localGuide h1 {
-	color: #5698d2;
-}
-
-#localGuide h2 {
+#localGuide h1, #localGuide h2 {
 	color: #5698d2;
 }
 
@@ -597,6 +589,42 @@ figcaption {
 
 #lgFinal img {
 	width: 100%;
+}
+
+/*---------------------- Sprightly Styles ---------------------*/
+
+#sprightly h1, #sprightly h2 {
+	color: #6FCF78;
+}
+
+#marci img {
+	width: 100%;
+	box-shadow: 1px 1px 20px #666;
+	margin-top: 20px;
+	margin-bottom: 120px;
+}
+
+#marciMap img {
+	width: 100%;
+	margin-top: 20px;
+	box-shadow: 1px 1px 20px #666;
+}
+
+#sprightlyWireframes img {
+	width: 100%;
+	margin-top: 20px;
+}
+
+#sprightlyTiles img {
+	display: inline-block;
+	width: 49%;
+	box-shadow: 1px 1px 20px #666;
+	margin-top: 20px;
+}
+
+.sprightlyMockup img {
+	width: 100%;
+	margin-bottom: 100px;
 }
 
 /*---------------------- Portfolio Nav Styles -----------------*/
