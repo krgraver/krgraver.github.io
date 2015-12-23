@@ -591,6 +591,52 @@ figcaption {
 	width: 100%;
 }
 
+/*---------------------- Flint Styles -------------------------*/
+
+#flint h1, #flint h2 {
+	color: #ac0404;
+}
+
+#flintDiagram img {
+	width: 100%;
+	margin-bottom: 40px;
+}
+
+#flintTakeaways {
+	list-style-type: disc;
+}
+
+#flintTakeaways li {
+	margin-bottom: 15px;
+	line-height: 24px;
+}
+
+#flintWireframes img {
+	width: 100%;
+	margin-bottom: 100px;
+}
+
+#flintTesting img {
+	width: 100%;
+}
+
+#flintTiles img {
+	display: inline-block;
+	width: 45%;
+	box-shadow: 1px 1px 20px #666;
+	margin-top: 20px;
+	margin: 0 2%;
+}
+
+#flintLogo {
+	width: 100%;
+}
+
+.mockups img {
+	width: 100%;
+	margin-bottom: 30px;
+}
+
 /*---------------------- Sprightly Styles ---------------------*/
 
 #sprightly h1, #sprightly h2 {
@@ -617,9 +663,10 @@ figcaption {
 
 #sprightlyTiles img {
 	display: inline-block;
-	width: 49%;
+	width: 45%;
 	box-shadow: 1px 1px 20px #666;
 	margin-top: 20px;
+	margin: 0 2%;
 }
 
 .sprightlyMockup img {
