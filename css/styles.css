@@ -689,6 +689,45 @@ figcaption {
 	color: #634465;
 }
 
+#sufoTiles img {
+	width: 100%;
+	margin-bottom: 40px;
+}
+
+#sufoDesktop img {
+	width: 100%;
+}
+
+.sufoMockups {
+	margin-bottom: 50px;
+}
+
+.sufoMockups img:first-child {
+	width: 48%;
+	float: left;
+	box-shadow: 1px 1px 20px #666;
+}
+
+.sufoMockups img:nth-child(2) {
+	width: 48%;
+	float: right;
+	box-shadow: 1px 1px 20px #666;
+}
+
+#sufoTablets img {
+	width: 100%;
+}
+
+#sufoPhones img {
+	width: 100%;
+}
+
+#sufoGuide img {
+	width: 100%;
+	box-shadow: 1px 1px 20px #666;
+	margin-bottom: 100px;
+}
+
 /*---------------------- Portfolio Nav Styles -----------------*/
 
 #portfolioNav {
