@@ -656,6 +656,15 @@ figcaption {
 	box-shadow: 1px 1px 20px #666;
 }
 
+#sprightlyFunctions {
+	list-style-type: disc;
+}
+
+#sprightlyFunctions li {
+	margin-bottom: 15px;
+	line-height: 24px;
+}
+
 #sprightlyWireframes img {
 	width: 100%;
 	margin-top: 20px;
@@ -672,6 +681,12 @@ figcaption {
 .sprightlyMockup img {
 	width: 100%;
 	margin-bottom: 50px;
+}
+
+/*---------------------- SuFo Styles -------------------------*/
+
+#sufo h1, #sufo h2 {
+	color: #634465;
 }
 
 /*---------------------- Portfolio Nav Styles -----------------*/
