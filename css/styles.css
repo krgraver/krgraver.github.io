@@ -259,7 +259,6 @@ nav.scroll {
 
 #headshot {
 	position: fixed;
-	bottom: 2px;
 	z-index: -1;
 }
 
@@ -275,7 +274,6 @@ nav.scroll {
 
 #portfolio {
 	background: #222;
-	margin-top: -2px;
 	padding-top: 110px;
 	color: #fff;
 }
