@@ -696,10 +696,11 @@ figcaption {
 
 #sufoDesktop img {
 	width: 100%;
+	margin-top: 50px;
 }
 
 .sufoMockups {
-	margin-bottom: 50px;
+	margin-bottom: 100px;
 }
 
 .sufoMockups img:first-child {
