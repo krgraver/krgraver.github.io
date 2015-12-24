@@ -123,6 +123,12 @@ nav.scroll {
 	background: #000;
 }
 
+@media (max-width: 870px) {
+	#filler {
+		height: 30px;
+	}
+}
+
 #gif {
 	background: #292929;
 }
@@ -211,17 +217,17 @@ nav.scroll {
 }
 
 .hoverIcon {
-	width: 33%;
+	width: 32%;
 	display: inline-block;
 	position: relative;
 }
 
-@media (max-width: 870px) {
+/*@media (max-width: 870px) {
 
 	.hoverIcon {
-		width: 27%;
+		width: 33%;
 	}
-}
+}*/
 
 .hoverIcon img {
 	display: block;
@@ -362,6 +368,7 @@ nav.scroll {
 /*--------------Contact Styles--------------------*/
 
 #contact {
+	vertical-align: top;
 	background: #333;
 	padding-top: 140px;
 	padding-bottom: 150px;
