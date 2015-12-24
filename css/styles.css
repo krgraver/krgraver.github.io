@@ -222,13 +222,6 @@ nav.scroll {
 	position: relative;
 }
 
-/*@media (max-width: 870px) {
-
-	.hoverIcon {
-		width: 33%;
-	}
-}*/
-
 .hoverIcon img {
 	display: block;
 	width: 70%;
