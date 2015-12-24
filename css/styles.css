@@ -219,7 +219,7 @@ nav.scroll {
 @media (max-width: 870px) {
 
 	.hoverIcon {
-		width: 30%;
+		width: 27%;
 	}
 }
 
@@ -247,6 +247,7 @@ nav.scroll {
 	text-align: center;
 	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
+	line-height: 14px;
 	color: #DDD031;
 	margin-top: 25px;
 }
@@ -266,7 +267,8 @@ nav.scroll {
 	width: 100%;
 }
 
-#mask img {
+#mask {
+	vertical-align: top;
 	width: 100%;
 }
 
@@ -451,6 +453,7 @@ footer {
 }
 
 footer img {
+	vertical-align: top;
 	width: 100%;
 }
 
