@@ -22,6 +22,12 @@ body {
 	position: relative;
 }
 
+@media (max-width: 850px) {
+	.articleContent {
+	width: 90%;
+}
+}
+
 /* --------------- Header Styles ---------------- */
 
 nav {
@@ -485,6 +491,30 @@ article {
 	padding-bottom: 50px;
 }
 
+@media (max-width: 1150px) {
+	article {
+		top: 620px;
+	}
+}
+
+@media (max-width: 920px) {
+	article {
+		top: 460px;
+	}
+}
+
+@media (max-width: 700px) {
+	article {
+		top: 330px;
+	}
+}
+
+@media (max-width: 500px) {
+	article {
+		top: 220px;
+	}
+}
+
 article h1 {
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
@@ -743,6 +773,30 @@ figcaption {
 	padding: 40px;
 }
 
+@media (max-width: 1150px) {
+	#portfolioNav {
+		top: 620px;
+	}
+}
+
+@media (max-width: 920px) {
+	#portfolioNav {
+		top: 460px;
+	}
+}
+
+@media (max-width: 700px) {
+	#portfolioNav {
+		top: 330px;
+	}
+}
+
+@media (max-width: 500px) {
+	#portfolioNav {
+		top: 220px;
+	}
+}
+
 #portfolioNav li {
 	position: relative;
 	display: inline-block;
@@ -762,6 +816,17 @@ figcaption {
 	font-size: 14px;
 	text-transform: uppercase;
 	color: #FFF;
+}
+
+@media (max-width: 870px) {
+	#portfolioNav li {
+	margin-bottom: 50px;
+	width: 32%;
+	}
+
+	#portfolioNav li img {
+	margin-bottom: 10px;
+}
 }
 
 
