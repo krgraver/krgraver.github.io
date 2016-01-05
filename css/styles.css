@@ -413,6 +413,11 @@ nav.scroll {
 	margin-bottom: 15px;
 }
 
+#resume, #email {
+	text-decoration: none;
+	color: #FFF;
+}
+
 #contactContent p {
 	margin-bottom: 30px;
 }
