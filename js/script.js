@@ -70,6 +70,30 @@ $('#topBtn').click(function(e){
 	$('html, body').animate({scrollTop: 0}, 1000);
 });
 
+$(function() {
+	$('#localGuide a').fluidbox({
+		stackIndex: 10
+	});
+});
+
+$(function() {
+	$('#flint a').fluidbox({
+		stackIndex: 10
+	});
+});
+
+$(function() {
+	$('#sprightly a').fluidbox({
+		stackIndex: 10
+	});
+});
+
+$(function() {
+	$('#sufo a').fluidbox({
+		stackIndex: 10
+	});
+});
+
 
 
 

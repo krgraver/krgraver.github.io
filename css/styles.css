@@ -28,6 +28,11 @@ body {
 }
 }
 
+.spacer {
+	float: left;
+	margin: 2%;
+}
+
 /* --------------- Header Styles ---------------- */
 
 nav {
@@ -705,11 +710,10 @@ figcaption {
 }
 
 #flintTiles img {
-	display: inline-block;
+	float: left;
 	width: 45%;
 	box-shadow: 1px 1px 20px #666;
-	margin-top: 20px;
-	margin: 0 2%;
+	margin: 20px 0 80px 1%;
 }
 
 #flintLogo img {
@@ -755,11 +759,10 @@ figcaption {
 }
 
 #sprightlyTiles img {
-	display: inline-block;
+	float: left;
 	width: 45%;
 	box-shadow: 1px 1px 20px #666;
-	margin-top: 20px;
-	margin: 0 2%;
+	margin: 20px 0 100px 1%;
 }
 
 .sprightlyMockup img {
