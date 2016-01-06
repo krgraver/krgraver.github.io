@@ -71,25 +71,7 @@ $('#topBtn').click(function(e){
 });
 
 $(function() {
-	$('#localGuide a').fluidbox({
-		stackIndex: 10
-	});
-});
-
-$(function() {
-	$('#flint a').fluidbox({
-		stackIndex: 10
-	});
-});
-
-$(function() {
-	$('#sprightly a').fluidbox({
-		stackIndex: 10
-	});
-});
-
-$(function() {
-	$('#sufo a').fluidbox({
+	$('#localGuide a, #flint a, #sprightly a, #sufo a').fluidbox({
 		stackIndex: 10
 	});
 });
