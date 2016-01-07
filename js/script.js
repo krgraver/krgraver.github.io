@@ -21,6 +21,8 @@ $(document).ready(function () {
 			$(document).on('scroll', onScroll);
 		});
 	});
+
+	$('#gif img').attr("src", "images/intro.gif");
 });
 
 function onScroll(event){
