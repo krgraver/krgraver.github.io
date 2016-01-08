@@ -44,7 +44,7 @@ nav {
 }
 
 nav.scroll {
-	background: rgba(35,35,35,.5);
+	background: rgba(35,35,35,.2);
 }
 
 #navContent .logo {
@@ -448,6 +448,17 @@ nav.scroll {
 	margin: 10px 30px;
 }
 
+#contact li, #contact p {
+	transition: all .1s ease-in-out;
+	-moz-transition: all .1s ease-in-out;
+	-webkit-transition: all .1s ease-in-out;
+	-o-transition: all .1s ease-in-out;
+}
+
+#contact p:hover, #contact li:hover {
+	transform: scale(1.1);
+}
+
 #contactContent i {
 	font-size: 40px;
 	color: #fff;
@@ -823,6 +834,13 @@ figcaption {
 	top: 780px;
 	background: #444;
 	padding: 40px;
+}
+
+#portfolioNav h3 {
+	text-align: center;
+	color: #FFF;
+	font-size: 28px;
+	margin-bottom: 40px;
 }
 
 @media (max-width: 1150px) {
