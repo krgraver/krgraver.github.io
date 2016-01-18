@@ -629,7 +629,7 @@ figcaption {
 	width: 100%;
 }
 
-.ysScreens img {
+.ysScreens img, #ysMockup2 img {
 	width: 100%;
 	box-shadow: 1px 1px 20px #666;
 	margin-bottom: 150px;
@@ -804,14 +804,23 @@ figcaption {
 	color: #634465;
 }
 
+#sufo p {
+	margin-bottom: 60px;
+}
+
 #sufoTiles img {
 	width: 100%;
 	margin-bottom: 40px;
 }
 
+#sufoInspiration img {
+	width: 100%;
+	margin-bottom: 50px;
+}
+
 #sufoDesktop img {
 	width: 100%;
-	margin-top: 50px;
+	margin-top: 30px;
 }
 
 .sufoMockups {
