@@ -813,6 +813,11 @@ figcaption {
 	margin-bottom: 60px;
 }
 
+#sufo p a {
+	text-decoration: none;
+	color: #634465;
+}
+
 #sufoTiles img {
 	width: 100%;
 	margin-bottom: 40px;
