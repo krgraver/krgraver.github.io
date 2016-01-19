@@ -629,10 +629,14 @@ figcaption {
 	width: 100%;
 }
 
-.ysScreens img, #ysMockup2 img {
+.ysScreens img {
 	width: 100%;
 	box-shadow: 1px 1px 20px #666;
 	margin-bottom: 150px;
+}
+
+#ysMockup2 img {
+	width: 100%;
 }
 
 /*--------------------- LocalGuide Styles --------------------*/
