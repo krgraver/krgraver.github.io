@@ -554,6 +554,7 @@ footer .logo {
 .headerImg {
 	position: fixed;
 	z-index: -1;
+	width: 100%;
 }
 
 .headerImg img{
