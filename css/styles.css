@@ -144,7 +144,12 @@ nav.scroll {
 	background: #292929;
 }
 
-#gif img{
+#gif img:first-child {
+	position: absolute;
+	z-index: -1;
+}
+
+#gif img {
 	width: 100%;
 }
 
