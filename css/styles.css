@@ -646,6 +646,12 @@ figcaption {
 	color: #82a19f;
 }
 
+#ysMockup2 img {
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
 #ysLogo {
 	width: 100%;
 	margin-bottom: 30px;
@@ -663,11 +669,6 @@ figcaption {
 	width: 100%;
 	box-shadow: 1px 1px 20px #666;
 	margin-bottom: 150px;
-}
-
-#ysMockup2 img {
-	width: 100%;
-	margin-bottom: 100px;
 }
 
 /*--------------------- LocalGuide Styles --------------------*/
