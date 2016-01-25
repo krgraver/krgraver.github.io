@@ -848,6 +848,11 @@ figcaption {
 	color: #634465;
 }
 
+#sufoWireframes img {
+	width: 100%;
+	margin-bottom: 40px;
+}
+
 #sufoTiles img {
 	width: 100%;
 	margin-bottom: 40px;
