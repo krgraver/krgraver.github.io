@@ -274,25 +274,8 @@ nav.scroll {
 }
 
 #headshot {
-	position: fixed;
-	width: 100%;
-	height: 100%;
-	z-index: -1;
-	background-image: url("../images/headshot.jpg");
+	background: url("../images/headshot.jpg") center center fixed;
 	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-@media (max-width: 870px) {
-	#headshot {
-		background-position: -200px;
-	}
-}
-
-@media (max-width: 500px) {
-	#headshot {
-		background-position: -400px;
-	}
 }
 
 #headshot img {
