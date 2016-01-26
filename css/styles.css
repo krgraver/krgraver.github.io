@@ -270,6 +270,9 @@ nav.scroll {
 
 #headshot {
 	background: url("../images/headshot.jpg") center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 	background-size: cover;
 }
 
@@ -876,6 +879,12 @@ figcaption {
 	width: 100%;
 	box-shadow: 1px 1px 20px #666;
 	margin-bottom: 100px;
+}
+
+/*---------------------- Project Riley ------------------------*/
+
+#riley h1, #riley h2 {
+	color: #D87D1A;
 }
 
 /*---------------------- Portfolio Nav Styles -----------------*/
