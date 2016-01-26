@@ -720,6 +720,7 @@ figcaption {
 
 #lgFinal img {
 	width: 100%;
+	margin-bottom: 50px;
 }
 
 /*---------------------- Flint Styles -------------------------*/
@@ -764,7 +765,7 @@ figcaption {
 
 .mockups img {
 	width: 100%;
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 }
 
 /*---------------------- Sprightly Styles ---------------------*/
