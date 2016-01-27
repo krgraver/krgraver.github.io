@@ -887,6 +887,52 @@ figcaption {
 	color: #D87D1A;
 }
 
+#rileyMatrix img {
+	margin-top: 30px;
+	width: 100%;
+}
+
+.rileyList{
+	width: 80%;
+	margin: 0 auto;
+	list-style-type: disc;
+	margin-bottom: 40px;
+}
+
+.rileyList li {
+	margin-bottom: 15px;
+	line-height: 24px;
+}
+
+.rileyList span {
+	font-weight: bold;
+	color: #D87D1A;
+}
+
+#rileyInquiry img {
+	margin-top: 30px;
+	width: 100%;
+}
+
+#rileyAffinity img {
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+#rileySketches img {
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+#rileyBoard img {
+	width: 100%;
+	margin-top: 30px;
+}
+
+#rileyPrototype img {
+	width: 100%;
+}
 /*---------------------- Portfolio Nav Styles -----------------*/
 
 #portfolioNav {
@@ -930,7 +976,7 @@ figcaption {
 #portfolioNav li {
 	position: relative;
 	display: inline-block;
-	width: 16.6%;
+	width: 16.2%;
 }
 
 #portfolioNav li img {

@@ -71,9 +71,13 @@ $('#topBtn').click(function(e){
 });
 
 $(function() {
-	$('#localGuide a, #flint a, #sprightly a, #sufo a').fluidbox({
+	$('#localGuide a, #flint a, #sprightly a, #sufo a, #riley a').fluidbox({
 		stackIndex: 10
 	});
+});
+
+$(document).ready(function(){
+  $('.bxslider').bxSlider();
 });
 
 
