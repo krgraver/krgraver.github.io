@@ -883,6 +883,10 @@ figcaption {
 
 /*---------------------- Project Riley ------------------------*/
 
+#riley {
+	padding-bottom: 130px;
+}
+
 #riley h1, #riley h2 {
 	color: #D87D1A;
 }
