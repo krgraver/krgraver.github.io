@@ -276,7 +276,7 @@ nav.scroll {
 	background-size: cover;
 }*/
 
-body:before {
+#homeBody:before {
   content: "";
   display: block;
   position: fixed;
